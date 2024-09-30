@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/background.png);
+}
+
+main, nav{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+main{
+    background-color: white;
+    width: 70%;
+    max-width: 700px;
+}
+
+nav{
+    display: flex;
+}
+
+header, footer{
+    background-color: black;
+    padding: 30px 0;
+}
+
+.link, .topname{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.topname{
+    margin-right: auto;
+    font-size: x-large;
+}
+
+.link{
+    margin: 0 8px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: purple;
+}
+
+.asidehr{
+    width: 95%;
+}
+
+h1, h2{
+    font-family: sans-serif;
+}
+
+h2{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.headshot{
+    max-width: 200px;
+    height: 300px;
+    float: left;
+    padding: 15px 15px 0 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+aside{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    justify-content: flex-start;
+    margin-bottom: auto;
+    max-width: 300px;
+}
+
+aside a{
+    padding: 5px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: auto;
+}
